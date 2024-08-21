@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="CustomBarTopNavigation"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="bcf333db-12fc-4cfc-bde2-838e04b0cd12"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

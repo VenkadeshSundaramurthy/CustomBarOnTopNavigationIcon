@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://2klgqp.sharepoint.com/SitePages/New-Letter.aspx",
+      "customActions": {
+        "bcf333db-12fc-4cfc-bde2-838e04b0cd12": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "customBarTopNavigation": {
+      "pageUrl": "https://2klgqp.sharepoint.com/SitePages/New-Letter.aspx",
+      "customActions": {
+        "bcf333db-12fc-4cfc-bde2-838e04b0cd12": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

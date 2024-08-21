@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "custom-bar-on-top-navigation",
+    "libraryId": "55b6538a-e294-4eb5-8ae4-47e38cd13825",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "custom-bar-on-top-navigation",
+    "solutionShortDescription": "custom-bar-on-top-navigation description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

@@ -1,0 +1,68 @@
+.quickLinks {
+  //padding-left: 20px; /* Add space at the start of the container */
+  /* Add space at the top of the container */
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+    justify-content: left; /* Center the grid items */
+    background-color: "[theme: neutralLighter, default: #f3f2f1]"; /* Use theme color */
+    padding-top: 10px; 
+    padding-left: 20px;
+    //padding-bottom: 5px
+  }
+
+  .gridItem {
+    flex: 1 0 30%; /* Adjust the width of items to roughly one-third */
+    max-width: 50px; /* Maximum width for each card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    //padding: 10px;   
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    //margin: 4px;
+    //background-color: "[theme: white, default: #fff]"; /* Use theme color */
+    //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+    //border-radius: 8px; /* Rounded corners */
+    //transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
+
+    &:hover {
+      transform: translateY(-5px); /* Slight lift on hover */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    }
+
+    @media (max-width: 1024px) {
+      flex: 1 0 45%; /* Two items per row on smaller screens */
+    }
+
+    @media (max-width: 768px) {
+      flex: 1 0 100%; /* One item per row on mobile */
+    }
+
+    a {
+      text-decoration: none;
+      color: "[theme: neutralPrimary, default: #333]"; /* Use theme color for text */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+
+    .icon {
+      font-size: 20px; /* Larger icon size */
+      margin-bottom: 10px;
+      color: "[theme: themePrimary, default: #0078d4]"; /* Use theme color */
+    }
+
+    div {
+      font-size: 10px; /* Font size for the title */
+      font-weight: 400; /* Bold text for the title */
+      color: "[theme: neutralPrimary, default: #333]"; /* Use theme color */
+    }
+  }
+}

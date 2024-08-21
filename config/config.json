@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-bar-top-navigation-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/customBarTopNavigation/CustomBarTopNavigationApplicationCustomizer.js",
+          "manifest": "./src/extensions/customBarTopNavigation/CustomBarTopNavigationApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomBarTopNavigationApplicationCustomizerStrings": "lib/extensions/customBarTopNavigation/loc/{locale}.js"
+  }
+}
